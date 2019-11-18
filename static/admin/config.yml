@@ -26,6 +26,7 @@ collections:
       - {
           name: "parent_heading",
           label: "Parent Heading",
+          required: false,
           widget: "relation",
           collection: "heading",
           searchFields: ["title"],
